@@ -6,13 +6,12 @@ This repository contains the TOEFL-Spel annotated data set. The data is describe
  [(Flor, Fried & Rozovskaya, 2019)](https://www.aclweb.org/anthology).
  
 
-The data set contains annotations of 6000+ spelling errors from
+The TOEFL-Spell data set contains annotations of 6000+ spelling errors from
 essays written by non-native speakers of English taking the TOEFL iBT test.
 
 We based our data set on the publicly available ETS
 Corpus of Non-Native Written English, a.k.a. TOEFL11,
 which contains 12,100 essays from 11 first language backgrounds.
-
 We sampled 883 essays from that corpus and manually annotated them for spelling errors.
 
 We provide two files: FilesCounts.tsv and Annotations.tsv  (both have tab-separated values, first line is header). 
