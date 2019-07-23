@@ -10,13 +10,16 @@ The data set contains annotations of 6000+ spelling errors from
 essays written by non-native speakers of English taking the TOEFL iBT test.
 
 We based our data set on the publicly available ETS
-Corpus of Non-Native Written English, a.k.a. TOEFL11.
-
+Corpus of Non-Native Written English, a.k.a. TOEFL11,
 which contains 12,100 essays from 11 first language backgrounds.
 
 We sampled 883 essays from that corpus and manually annotated them for spelling errors.
 
-The supplied file contains tab-separated annotations for all the data.
+We provide two files: FilesCounts.tsv and Annotations.tsv  (both have tab-separated values, first line is header). 
+
+*FilesCounts.tsv* contains the names of annotated files (essays) and the count of spelling errros for each.
+
+The file Annotations.tsv contains tab-separated annotations for all the data.
 Each annotation appears on a separate line, like this:
 
 Filename | offsetSpan | Misspelling | type | Correction
