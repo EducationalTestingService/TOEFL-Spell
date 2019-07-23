@@ -10,12 +10,19 @@ The data set contains annotations of 6000+ spelling errors from
 essays written by non-native speakers of English taking the TOEFL iBT test.
 
 We based our data set on the publicly available ETS
-Corpus of Non-Native Written English , a.k.a. TOEFL11.
-TOEFL11 contains 12,100 essays from 11 first language backgrounds
+Corpus of Non-Native Written English, a.k.a. TOEFL11.
+
+which contains 12,100 essays from 11 first language backgrounds.
+
 We sampled 883 essays from that corpus and manually annotated them for spelling errors.
 
 The supplied file contains tab-separated annotations for all the data.
-Each annotation appears on a separate line.
+Each annotation appears on a separate line, like this:
+
+Filename | offsetSpan | Misspelling | type | Correction
+-------- | ---------- | ----------- | ---- | ----------
+1004135 |	1186-1193	| beacuse |	M	| because
+
 The value of the *Filename* field matches the corresponding text file in the full TOEFL11 corpus.
 The value in the *span* field gives the offset of the misspelling in the original text file.
 
