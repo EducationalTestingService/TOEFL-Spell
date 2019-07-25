@@ -31,7 +31,7 @@ The value in the *span* field gives the offset of the misspelling in the origina
 In order to appreciate the annotations in full context of the original essay,
 you will need to obtain the essays from the Linguistic Data Consortium (LDC Catalog Number: [LDC2014T06](https://catalog.ldc.upenn.edu/LDC2014T06)) and link them to the annotation via filenames and offset values.
 
-###A note on 'types' of misspellings###
+### A note on 'types' of misspellings ###
 
 The article mentions 6121 misspelings, where each is a single token nonword.
 Those are marked as type M in the annotation.
