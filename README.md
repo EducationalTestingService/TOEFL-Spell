@@ -18,7 +18,7 @@ We provide two files: FilesCounts.tsv and Annotations.tsv  (both have tab-separa
 
 *FilesCounts.tsv* contains the names of annotated files (essays) and the count of spelling errros for each. Note that 35 essays had no spelling errors.
 
-The file Annotations.tsv contains tab-separated annotations for all the data.
+The file *Annotations.tsv* contains tab-separated annotations for all the data.
 Each annotation appears on a separate line, like this:
 
 Filename | OffsetSpan | Misspelling | Type | Correction
