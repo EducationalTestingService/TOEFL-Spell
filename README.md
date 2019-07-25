@@ -16,7 +16,7 @@ We sampled 883 essays from that corpus and manually annotated them for spelling 
 
 We provide two files: FilesCounts.tsv and Annotations.tsv  (both have tab-separated values, first line is header). 
 
-*FilesCounts.tsv* contains the names of annotated files (essays) and the count of spelling errros for each.
+*FilesCounts.tsv* contains the names of annotated files (essays) and the count of spelling errros for each. Note that 35 essays had no spelling errors.
 
 The file Annotations.tsv contains tab-separated annotations for all the data.
 Each annotation appears on a separate line, like this:
