@@ -1,7 +1,7 @@
 # TOEFL-Spell
 A dataset of Spelling Annotations for English language learner essays written for TOEFL exams.
 
-This repository contains the TOEFL-Spel annotated data set. The data is described in the paper
+This repository contains the TOEFL-Spell annotated data set. The data is described in the paper
 *A Benchmark Corpus of English Misspellings and a Minimally-supervised Model for Spelling Correction*
  [(Flor, Fried & Rozovskaya, 2019)](https://www.aclweb.org/anthology).
  
@@ -28,7 +28,7 @@ Filename | OffsetSpan | Misspelling | Type | Correction
 The value of the *Filename* field matches the corresponding text file in the full TOEFL11 corpus.
 The value in the *span* field gives the offset of the misspelling in the original text file.
 
-In order to appreciate the annotations in full context of the original essay,
+In order to appreciate the annotations in full context of the original essay (or to run your own experiments),
 you will need to obtain the essays from the Linguistic Data Consortium (LDC Catalog Number: [LDC2014T06](https://catalog.ldc.upenn.edu/LDC2014T06)) and link them to the annotation via filenames and offset values.
 
 ### A note on 'types' of misspellings ###
