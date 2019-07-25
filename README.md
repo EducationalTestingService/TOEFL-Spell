@@ -21,7 +21,7 @@ We provide two files: FilesCounts.tsv and Annotations.tsv  (both have tab-separa
 The file Annotations.tsv contains tab-separated annotations for all the data.
 Each annotation appears on a separate line, like this:
 
-Filename | offsetSpan | Misspelling | type | Correction
+Filename | OffsetSpan | Misspelling | Type | Correction
 -------- | ---------- | ----------- | ---- | ----------
 1004135 |	1186-1193	| beacuse |	M	| because
 
