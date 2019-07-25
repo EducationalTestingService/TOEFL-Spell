@@ -35,7 +35,7 @@ you will need to obtain the essays from the Linguistic Data Consortium (LDC Cata
 
 The article mentions 6121 misspelings, where each is a single token nonword.
 Those are marked as type M in the annotation.
-The annotation file has 112 additioanl misspellings, with other type names (M2,MWM,MWM2), which were marked for future rrsearch.
+The annotation file has 112 additional misspellings, with other type names (M2,MWM,MWM2), which were marked for addiitoanl research.
 Only type M misspellings were used in system evaluations reported in the paper.
 
 Questions? Send email to mflor@ets.org
