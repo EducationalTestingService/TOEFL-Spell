@@ -2136,7 +2136,7 @@ Filename,OffsetSpan,Misspelling,Type,Correction
 1586025,791-796,fioul,M,fuel
 1586025,829-837,contries,M,countries
 1586025,985-998,concideration,M,consideration
-1586025,1178-1183,don,t,MWM2,don't
+1586025,1178-1183,"don,t",MWM2,don't
 1586025,1335-1343,entreing,M,entering
 1586025,1690-1704,Delocalisation,M,Delocalization
 1586025,1735-1739,hina,M,china
